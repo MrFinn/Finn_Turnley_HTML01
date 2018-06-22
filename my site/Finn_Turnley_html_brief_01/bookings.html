@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Finn Turnley HTML Brief 01</title>
+    <meta name="author" content="Finn Turnley">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <!--[if lt IE 9]>
+	<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <h2 class="title">La Rose Bed & Breakfast</h2>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="bookings.html" class="active">Bookings</a>
+            </li>
+            <li>
+                <a href="about.html">About</a>
+            </li>
+            <li>
+                <a href="home.html">Home</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+
+        <form action="bookings.php" method="POST">
+            <fieldset>
+                <legend>
+                   <h3>Booking</h3> 
+                </legend>
+                <ul class="form-styles">
+                    <li>
+                        <label>Full Name</label>
+                        <input type="text" name="firstName" required placeholder="First Name" class="name-selector"> &nbsp;
+                        <input type="text" name="surname" required placeholder="Surname" class="name-selector">
+                    </li>
+                    <li>
+                        <label selector-label>Email</label>
+                        <input type="email" name="email" required placeholder="Email" class="feild-long">
+                    </li>
+                    <li>
+                        <label>from:</label>
+                        <input type="date" name="bday" class="date-selector">
+                        <label>to:</label>
+                        <input type="date" name="bday" class="date-selector">
+                    </li>
+                    <li>
+                        <label>Adults</label>
+                        <input type="number" name="quantity" min="1" max="5">
+                        <label>Children</label>
+                        <input type="number" name="quantity" min="1" max="5">
+                    </li>
+                    <li class="rooms">
+                        <label>Garden room</label>
+                        <img href="img/garden-room.jpg">
+                        <p>
+                            Room size 15 m² Opening out onto the patio, this small room includes a double bed and radiates a tranquil atmosphere.    
+                        </p>
+                        <br>
+                        <label>Room facilities:</label>   
+                            <ul>                            
+                            <li>• Shower</li>  
+                            <li>• TV</li>  
+                            <li>• Air conditioning</li> 
+                            <li>• Fan</li> 
+                            <li>• Toilet</li> 
+                            <li>• Private bathroom</li> 
+                            <li>• Heating</li>
+                            </ul>
+                            Free WiFi!
+
+                            
+                           
+                     
+                    </li>
+                    <li class="rooms">
+                        <label>Indigo room</label>
+                        <img href="img/indigo-room.jpg">
+                        <p>
+                                Room size 15 m²
+                                This charming room offers views of the city and easy access to the roof terrace.
+                        </p>     
+                        <br>   
+                               <label>Room facilities:</label>
+                               <ul>                            
+                                <li>• Shower</li>  
+                                <li>• TV</li>  
+                                <li>• Air conditioning</li> 
+                                <li>• Fan</li> 
+                                <li>• Toilet</li> 
+                                <li>• Private bathroom</li> 
+                                <li>• Heating</li>
+                                </ul>
+                                Free WiFi!
+                        
+                    </li>
+                    <li class="rooms">
+                        <label>Sun room</label>
+                        <img href="img/sun-room.jpg">
+                        <p>
+                                Room size 15 m²
+                                This bright room features a double bed.
+                                
+                                Room facilities:
+                                
+                                <ul>                            
+                                    <li>• Shower</li>  
+                                    <li>• TV</li>  
+                                    <li>• Air conditioning</li> 
+                                    <li>• Fan</li> 
+                                    <li>• Toilet</li> 
+                                    <li>• Private bathroom</li> 
+                                    <li>• Heating</li>
+                                    </ul>
+                                    Free WiFi!
+                        </p>
+                    </li>
+                    <li class="rooms">
+                        <label>Oriental room</label>
+                        <img href="img/oriental-room.jpg">
+                        <p>
+                            Room size 15 m² Bright, Oriental-inspired room decorated with orange and gold colours. Leads directly into the centre atrium
+                            of the house. The room is air-conditioned and has a TV and en suite bathroom with shower. 
+                            Room facilities: 
+                            <ul>                            
+                                <li>• Shower</li>  
+                                <li>• TV</li>  
+                                <li>• Air conditioning</li> 
+                                <li>• Fan</li> 
+                                <li>• Toilet</li> 
+                                <li>• Private bathroom</li> 
+                                <li>• Heating</li>
+                                </ul>
+                                Free WiFi!
+                        </p>
+                    </li>
+                    <li class="rooms">
+                        <label>Rose room</label>
+                        <img href="img/rose-room.jpg">
+                        <p>
+                                Room size 15 m²
+                                This stylish executive room offers a queen-size bed with a working area.
+                                
+                                Room facilities:
+                                
+                                <ul>                            
+                                    <li>• Shower</li>  
+                                    <li>• TV</li>  
+                                    <li>• Air conditioning</li> 
+                                    <li>• Fan</li> 
+                                    <li>• Toilet</li> 
+                                    <li>• Private bathroom</li> 
+                                    <li>• Heating</li>
+                                    </ul>
+                                    Free WiFi!
+                                
+                                
+                        </p>
+                    </li>
+                    <li class="rooms">
+                        <label>Cerise room</label>
+                        <img href="img/cerise-room.jpg">
+                        <p>
+                                Room size 15 m²
+                                This room has an en-suite bathroom and offers mountain views.
+                        </p><p>         
+                                Room facilities:
+                        </p>
+                                
+                                <ul>                            
+                                    <li>• Shower</li>  
+                                    <li>• TV</li>  
+                                    <li>• Air conditioning</li> 
+                                    <li>• Fan</li> 
+                                    <li>• Toilet</li> 
+                                    <li>• Private bathroom</li> 
+                                    <li>• Heating</li>
+                                    </ul>
+                                    Free WiFi!
+                    </li>
+                    <li class="rooms">
+                        <label>Lilac Suite</label>
+                        <img href="img/lilac-suite.jpg">
+                        <p>
+                                Room size 20 m²
+                                This romantic suite consists of a bedroom with queen-size sleigh bed, an en suite bathroom, a private balcony and a separate lounge. 
+                                
+                                Please note that the rate quoted is for 2 adults only. Supplement charges for additional children are applicable and will be confirmed on the booking confirmation.
+                        </p><p>      
+                                Room facilities:
+                        </p>
+        
+                                <ul>                            
+                                    <li>• Shower</li>  
+                                    <li>• TV</li>  
+                                    <li>• Air conditioning</li> 
+                                    <li>• Fan</li> 
+                                    <li>• Toilet</li> 
+                                    <li>• Private bathroom</li> 
+                                    <li>• Heating</li>
+                                    </ul>
+                                    Free WiFi!
+                    </li>
+                    <li class="rooms">
+                        <label>Crimson suite</label>
+                        <img href="img/crimson-suite.jpg">
+                        <p>
+                                Room size 20 m²
+                                This spacious Suite offers stunning views of Table Mountain. 
+                                
+                                This Suite can accommodate up to 3 Adults or 2 Adults and 1 Child. The rate quoted is for 2 Adults. Charges are applicable for additional occupancy.
+                        </p><p>         
+                                Room facilities:
+                        </p>        
+                                <ul>                            
+                                    <li>• Shower</li>  
+                                    <li>• TV</li>  
+                                    <li>• Air conditioning</li> 
+                                    <li>• Fan</li> 
+                                    <li>• Toilet</li> 
+                                    <li>• Private bathroom</li> 
+                                    <li>• Heating</li>
+                                    </ul>
+                                    Free WiFi!
+                    </li>
+                    <li class="rooms">
+                            <label>Mandela suite</label>
+                            <img href="img/mandela-suite.jpg">
+                            <p>
+                                    Room size 1 m²
+                                    Featuring a small deck, this afro chic room comes with a TV, air conditioning, tea and coffee facilities and en suite bathroom with bath and shower.
+                            </p>        
+                                    Room facilities:
+                                    
+                                    <ul>                            
+                                        <li>• Shower</li>  
+                                        <li>• TV</li>  
+                                        <li>• Air conditioning</li> 
+                                        <li>• Fan</li> 
+                                        <li>• Toilet</li> 
+                                        <li>• Private bathroom</li> 
+                                        <li>• Heating</li>
+                                        </ul>
+                                        Free WiFi!
+                            
+                        </li>
+
+                    <br>
+                    <li>
+                        <input type="submit" name="Send">
+                    </li>
+
+                </ul>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <h3>Contact information</h3>
+        <hr>
+        <p>Tel: +27 (0) 214225883</p>
+        <a href="#" class="to-top">&#9650;</a>
+    </footer>
+</body>
+
+</html>
